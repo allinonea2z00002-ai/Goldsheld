@@ -58,7 +58,7 @@
 
     <!-- Stats -->
     <string name="stats_title">পরিসংখ্যান</string>
-    <string name="stats_sub">নমুনা তথ্য — UI প্রদর্শনের জন্য</string>
+    <string name="stats_sub">আপনার সুরক্ষার আসল হিসাব</string>
     <string name="stat_total">মোট সুরক্ষিত সময়</string>
     <string name="stat_streak">ধারাবাহিক দিন</string>
     <string name="stat_blocks">ব্লক করা চেষ্টা</string>

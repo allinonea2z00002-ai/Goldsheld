@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Strings used by the ported core logic (services, notifications, integrity
+     checks, image detection). Bengali translations of the reference texts. Kept separate
+     from strings.xml so the logic strings stay with the logic layer. -->
+<resources>
+
+    <!-- Accessibility service description (referenced by res/xml/accessibility_config.xml) -->
+    <string name="a11y_service_description">Goldsheld শুধু কোন অ্যাপ সামনে আছে তা দেখে, যাতে আপনার বেছে নেওয়া অ্যাপগুলো ব্লক করতে পারে। কিছুই সংরক্ষণ বা পাঠানো হয় না।</string>
+
+    <!-- DNS VPN (site blocking) -->
+    <string name="vpn_session_name">Goldsheld সাইট ব্লকিং</string>
+    <string name="vpn_notif_title">সাইট ব্লকিং চালু আছে</string>
+    <string name="vpn_notif_text">DNS অনুরোধ এই ফোনেই উত্তর দেওয়া হয়; ব্লক করা সাইট খুলবে না।</string>
+
+    <!-- Lock / geofence / integrity notifications -->
+    <string name="notif_zone_lock_title">নিরাপদ এলাকায় লক শুরু হয়েছে</string>
+    <string name="notif_zone_lock_text">আপনি %1$s-এ প্রবেশ করেছেন। %2$d মিনিটের একটি লক শুরু হয়েছে।</string>
+    <string name="notif_integrity_title">আপনার সুরক্ষায় মনোযোগ দরকার</string>
+    <string name="notif_integrity_text">আপনার লকের উপর নির্ভরশীল কিছু বন্ধ হয়ে গেছে বা নেই। কী হয়েছে দেখতে Goldsheld খুলুন।</string>
+    <string name="notif_geofence_title">দূরত্ব ট্র্যাকিং সীমিত হতে পারে</string>
+    <string name="notif_geofence_text">লোকেশন সতর্কতা পুনরুদ্ধার করা যায়নি। Goldsheld-এ লোকেশন অনুমতি দেখুন।</string>
+    <string name="notif_completed_title">লক সম্পন্ন হয়েছে</string>
+    <string name="notif_completed_text">অভিনন্দন। আপনার লক শেষ হয়েছে এবং অগ্রগতি সংরক্ষিত হয়েছে।</string>
+
+    <!-- Integrity issues (shown when something the lock depends on is broken) -->
+    <string name="integrity_issue_vpn_off">DNS VPN চলছে না: সাইট ব্লকিং শুধু URL নজরদারির উপর নির্ভর করছে।</string>
+    <string name="integrity_issue_usage_access">ব্যবহারের অ্যাক্সেস বন্ধ: দৈনিক সীমা গণনা করা যাবে না।</string>
+    <string name="integrity_issue_private_dns">Private DNS এমন একটি সার্ভারে সেট করা আছে যা ফিল্টার করে না: সাইট ব্লকিং VPN এবং URL নজরদারির উপর নির্ভর করছে।</string>
+    <string name="integrity_issue_notifications">নোটিফিকেশন বন্ধ: সুরক্ষা ভেঙে গেলে আপনি সতর্কবার্তা পাবেন না।</string>
+    <string name="integrity_issue_location_stale">সাম্প্রতিক লোকেশন ফিক্স নেই: লোকেশন শর্তে দেরি হতে পারে।</string>
+    <string name="integrity_issue_location_permission">লোকেশন অনুমতি নেই: লোকেশন শর্ত লক খুলতে পারবে না।</string>
+    <string name="integrity_issue_location_disabled">এই ফোনে লোকেশন বন্ধ আছে।</string>
+    <string name="integrity_issue_feature_rules">ফিচার রুল প্যাক লোড করা যায়নি: ফিড ব্লকিং পুরনো ফলব্যাক ব্যবহার করছে।</string>
+    <string name="integrity_issue_battery">Goldsheld-এর জন্য ব্যাটারি অপটিমাইজেশন চালু: লক পরীক্ষায় দেরি হতে পারে।</string>
+    <string name="integrity_issue_background_location">ব্যাকগ্রাউন্ড লোকেশন বন্ধ: আপনি পৌঁছেছেন বা ভ্রমণ করছেন তা লক নাও ধরতে পারে।</string>
+    <string name="integrity_issue_accessibility">অ্যাক্সেসিবিলিটি বন্ধ: অ্যাপ ব্লকিং কাজ করছে না।</string>
+
+    <!-- Experimental on-device image detection -->
+    <string name="image_detection_title">ছবি শনাক্তকরণ</string>
+    <string name="image_detection_notification_text">প্রাপ্তবয়স্ক কন্টেন্টের জন্য স্ক্রিন এই ডিভাইসেই পরীক্ষা করা হচ্ছে।</string>
+    <string name="image_detection_model_missing">অ্যাপের সঙ্গে এখনো কোনো শনাক্তকরণ মডেল দেওয়া হয়নি, তাই ছবি শনাক্তকরণ চলতে পারবে না। কাঠামো প্রস্তুত; মডেল ফাইল এখনো দরকার।</string>
+    <string name="image_detection_cover_title">সন্দেহজনক স্ক্রিন শনাক্ত হয়েছে</string>
+    <string name="image_detection_cover_text">অন-ডিভাইস ডিটেক্টর এই স্ক্রিনটি চিহ্নিত করেছে। এটি ভুলও হতে পারে — এটি পরীক্ষামূলক।</string>
+
+    <!-- Notification channels -->
+    <string name="channel_protection">সুরক্ষা চলছে</string>
+    <string name="channel_events">কার্যকলাপ</string>
+    <string name="channel_alerts">সুরক্ষা সতর্কতা</string>
+
+    <!-- Motivational lines shown when a block happens -->
+    <string-array name="motivation_messages">
+        <item>প্রতিটি মিনিট ধরে থাকা নিজের কাছে রাখা একটি প্রতিশ্রুতি।</item>
+        <item>মনকে রক্ষা করো, জীবন নিজেই ঠিক হয়ে যাবে।</item>
+        <item>ইচ্ছেটা কেটে যায়। অর্জিত সম্মান থেকে যায়।</item>
+        <item>আজকের ছোট ছোট জয়ই গড়ে তোলে সেই মানুষটিকে, যে তুমি হতে চাও।</item>
+        <item>একটা শ্বাস নাও, একটু হাঁটো, নিয়ন্ত্রণ ফিরিয়ে নাও।</item>
+        <item>তুমি ক্ষণিকের দুর্বলতার চেয়ে অনেক বেশি শক্তিশালী।</item>
+        <item>ক্ষণস্থায়ী ইচ্ছেকে নয়, ভবিষ্যতের তোমাকে বেছে নাও।</item>
+    </string-array>
+
+</resources>

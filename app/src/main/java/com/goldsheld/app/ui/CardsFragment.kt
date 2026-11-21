@@ -20,8 +20,9 @@ abstract class CardsFragment : Fragment() {
 
     /** Optional bottom outline button; return its text or null to hide it. */
     protected open fun bottomButtonText(): String? = null
+
+    /** Default: the button does nothing. Fragments that show one override this. */
     protected open fun onBottomButton() {
-        requireContext().demoToast()
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {

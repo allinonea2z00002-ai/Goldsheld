@@ -32,4 +32,9 @@ class MainActivity : AppCompatActivity() {
             binding.nav.selectedItemId = R.id.nav_home
         }
     }
+
+    /** Switches the bottom tab programmatically (used after starting a lock). */
+    fun switchTab(itemId: Int) {
+        binding.nav.selectedItemId = itemId
+    }
 }

@@ -5,16 +5,10 @@ import android.content.res.ColorStateList
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import android.widget.Toast
 import androidx.core.content.ContextCompat
 import com.goldsheld.app.R
 
 fun Context.dp(value: Int): Int = (value * resources.displayMetrics.density).toInt()
-
-/** The project is UI-only: actions that would change protection show this note. */
-fun Context.demoToast() {
-    Toast.makeText(this, "এটি শুধু UI নমুনা — আসল কাজ এখনও যুক্ত হয়নি", Toast.LENGTH_SHORT).show()
-}
 
 fun View.setBottomMargin(dp: Int) {
     val lp = layoutParams as ViewGroup.MarginLayoutParams
@@ -23,6 +17,26 @@ fun View.setBottomMargin(dp: Int) {
 }
 
 fun Context.color(res: Int): Int = ContextCompat.getColor(this, res)
+
+/** Western digits (0-9) -> Bengali digits (০-৯). Other characters pass through unchanged. */
+fun bnDigits(text: String): String =
+    text.map { c -> if (c in '0'..'9') ('০' + (c - '0')) else c }.joinToString("")
+
+fun Int.bn(): String = bnDigits(toString())
+fun Long.bn(): String = bnDigits(toString())
+
+/** "১৮ ঘণ্টা ৪০ মিনিট" / "৪৫ মিনিট" / "৩ ঘণ্টা" / "০ মিনিট" for a duration in ms. */
+fun formatBnDuration(ms: Long): String {
+    val totalMin = ms.coerceAtLeast(0) / 60_000
+    val hours = totalMin / 60
+    val minutes = totalMin % 60
+    return when {
+        totalMin <= 0 -> "০ মিনিট"
+        hours == 0L -> "${minutes.bn()} মিনিট"
+        minutes == 0L -> "${hours.bn()} ঘণ্টা"
+        else -> "${hours.bn()} ঘণ্টা ${minutes.bn()} মিনিট"
+    }
+}
 
 enum class ChipStyle { SELECTED, UNSELECTED, NEUTRAL, ACCENT, DASHED }
 

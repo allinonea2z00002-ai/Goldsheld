@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bengali strings ONLY for the dialogs and toasts the UI wiring needs.
+     Existing UI strings stay in strings.xml; logic strings stay in strings_logic.xml. -->
+<resources>
+    <string name="ui_ok">ঠিক আছে</string>
+    <string name="ui_cancel">বাতিল</string>
+    <string name="ui_add">যোগ করুন</string>
+    <string name="ui_save">সেভ করুন</string>
+    <string name="ui_delete">মুছুন</string>
+
+    <!-- Lock start -->
+    <string name="ui_lock_started">লক শুরু হয়েছে</string>
+    <string name="ui_lock_already_active">একটি লক ইতিমধ্যে চলছে</string>
+    <string name="ui_lock_start_failed">লক শুরু করা যায়নি</string>
+    <string name="ui_no_zones">লোকেশন লকের জন্য প্রথমে একটি জায়গা যোগ করুন</string>
+    <string name="ui_add_zone_hint">নতুন জায়গা যোগ করতে লোকেশন ট্যাবে যান</string>
+    <string name="ui_custom_time_title">কাস্টম সময়</string>
+    <string name="ui_custom_time_hint">মিনিট লিখুন (৩–১২৯৬০০)</string>
+    <string name="ui_invalid_minutes">মিনিট ঠিক নয় — ৩ থেকে ১২৯৬০০-এর মধ্যে দিন</string>
+
+    <!-- Emergency override -->
+    <string name="ui_override_title">জরুরি ওভাররাইড</string>
+    <string name="ui_override_msg">জরুরি শব্দ লিখলে লক এখনই ভেঙে যাবে। এই ব্যবহার লগে থাকবে।</string>
+    <string name="ui_override_hint">জরুরি শব্দ</string>
+    <string name="ui_override_break">লক ভাঙুন</string>
+    <string name="ui_override_wrong">ভুল শব্দ — লক ভাঙা হয়নি</string>
+    <string name="ui_override_done">জরুরি ওভাররাইড — লক ভাঙা হয়েছে</string>
+    <string name="ui_no_override_word">জরুরি শব্দ সেট করা নেই — সেটিংসে গিয়ে সেট করুন</string>
+    <string name="ui_no_lock">কোনো লক চালু নেই</string>
+
+    <!-- Switch guard -->
+    <string name="ui_switch_refused">লক চলাকালে সুরক্ষা বন্ধ করা যায় না</string>
+
+    <!-- Keywords -->
+    <string name="ui_keyword_title">কীওয়ার্ড যোগ করুন</string>
+    <string name="ui_keyword_hint">কীওয়ার্ড লিখুন</string>
+    <string name="ui_keyword_added">কীওয়ার্ড যোগ হয়েছে</string>
+    <string name="ui_keyword_invalid">এই কীওয়ার্ড যোগ করা যায়নি — খালি, অনেক লম্বা বা আগেই আছে</string>
+    <string name="ui_keyword_remove_refused">লক চলাকালে কীওয়ার্ড মুছা যায় না</string>
+    <string name="ui_keyword_removed">কীওয়ার্ড মুছা হয়েছে</string>
+
+    <!-- Zones -->
+    <string name="ui_zone_title">নতুন জায়গা</string>
+    <string name="ui_zone_name_hint">জায়গার নাম (যেমন: অফিস)</string>
+    <string name="ui_zone_radius_hint">ব্যাসার্ধ, মিটারে (১০০–৫০০০)</string>
+    <string name="ui_zone_added">জায়গা যোগ হয়েছে</string>
+    <string name="ui_zone_invalid">নাম ও ব্যাসার্ধ (১০০–৫০০০ মি) ঠিক করে দিন</string>
+    <string name="ui_zone_delete_title">জায়গা মুছবেন?</string>
+    <string name="ui_zone_delete_msg">%1$s মুছে ফেলা হবে।</string>
+    <string name="ui_zone_deleted">জায়গা মুছে ফেলা হয়েছে</string>
+    <string name="ui_zone_in_use">এই জায়গাটি চলমান লকের আনলক জায়গা — লক শেষ হলে মুছা যাবে</string>
+    <string name="ui_location_permission">লোকেশন অনুমতি দিলে তবেই বর্তমান জায়গা যোগ করা যাবে</string>
+    <string name="ui_location_unavailable">বর্তমান লোকেশন পাওয়া যায়নি — GPS চালু আছে কি না দেখুন</string>
+    <string name="ui_history_cleared">লোকেশন ইতিহাস মুছে ফেলা হয়েছে</string>
+
+    <!-- Override word (Settings) -->
+    <string name="ui_override_word_title">জরুরি ওভাররাইড শব্দ</string>
+    <string name="ui_override_word_msg">এই শব্দ লিখে যেকোনো লক ভাঙা যায়। শব্দটি শুধু এই ফোনে এনক্রিপ্ট করে রাখা হয়।</string>
+    <string name="ui_override_word_hint">নতুন শব্দ লিখুন</string>
+    <string name="ui_override_word_saved">জরুরি শব্দ সেভ হয়েছে</string>
+    <string name="ui_override_word_empty">শব্দ খালি রাখা যাবে না</string>
+
+    <!-- Feature rules -->
+    <string name="ui_feature_pack_note">এই ফিচারটি রুল প্যাকের অংশ — ফিচার ব্লক চালু থাকলে সবসময় কাজ করে, আলাদা বন্ধ করা যায় না</string>
+    <string name="ui_feature_no_rule">এই ফিচারের জন্য কোনো ব্লক নিয়ম নেই</string>
+
+    <!-- App picker -->
+    <string name="ui_add_app_title">ব্লক করার অ্যাপ বেছে নিন</string>
+    <string name="ui_app_added">অ্যাপ যোগ হয়েছে — লক চলাকালে বন্ধ থাকবে</string>
+    <string name="ui_app_already_added">এই অ্যাপ আগেই যোগ করা আছে</string>
+    <string name="ui_no_apps">কোনো অ্যাপ পাওয়া যায়নি</string>
+    <string name="ui_app_delete_title">অ্যাপ ব্লক তুলবেন?</string>
+    <string name="ui_app_delete_msg">%1$s-এর ব্লক নিয়ম মুছে ফেলা হবে।</string>
+    <string name="ui_app_deleted">অ্যাপের ব্লক নিয়ম মুছে ফেলা হয়েছে</string>
+
+    <!-- VPN / image detection -->
+    <string name="ui_image_on">ছবি শনাক্তকরণ চালু হয়েছে</string>
+    <string name="ui_image_consent">স্ক্রিন ক্যাপচারের অনুমতি দিলে তবেই ছবি শনাক্তকরণ চলবে</string>
+    <string name="ui_vpn_consent">VPN অনুমতি না দিলে সাইট ব্লক শুধু URL নজরদারি দিয়ে চলবে</string>
+</resources>
