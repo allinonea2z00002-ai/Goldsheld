@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Premium White -->
+    <color name="bg">#F4F7F5</color>
+    <color name="card">#FFFFFF</color>
+    <color name="border">#DCE5E1</color>
+    <color name="divider">#E1E9E5</color>
+    <color name="text">#12201B</color>
+    <color name="muted">#5B6B65</color>
+    <color name="accent">#0A7F58</color>
+    <color name="on_accent">#FFFFFF</color>
+    <color name="accent_soft">#DDF2E9</color>
+    <color name="outline">#B9C7C1</color>
+    <color name="chip_bg">#E6EEEA</color>
+    <color name="switch_on">#0A7F58</color>
+    <color name="switch_off">#8A9A94</color>
+    <color name="ok">#0A7F58</color>
+    <color name="warn_text">#8A5A00</color>
+    <color name="warn_line">#E8C77A</color>
+    <color name="warn_bg">#FFF3D9</color>
+    <color name="warn_body">#5A3B00</color>
+    <color name="danger">#B3261E</color>
+    <color name="ring_track">#DCE5E1</color>
+    <color name="nav_bg">#FFFFFF</color>
+    <color name="nav_idle">#6B7B75</color>
+    <color name="thumb">#FFFFFF</color>
+    <color name="badge1_bg">#F1E3F8</color>
+    <color name="badge1_fg">#7A2E9A</color>
+    <color name="badge2_bg">#E0F0FB</color>
+    <color name="badge2_fg">#0B5E91</color>
+    <color name="badge3_bg">#FDE5E5</color>
+    <color name="badge3_fg">#B3261E</color>
+    <color name="badge4_bg">#DDF2E9</color>
+    <color name="badge4_fg">#0A7F58</color>
+    <color name="icon_bg">#0B1014</color>
+    <color name="icon_fg">#3DDC97</color>
+</resources>

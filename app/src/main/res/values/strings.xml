@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Goldsheld</string>
+
+    <string name="tab_home">হোম</string>
+    <string name="tab_protect">সুরক্ষা</string>
+    <string name="tab_stats">পরিসংখ্যান</string>
+    <string name="tab_location">লোকেশন</string>
+    <string name="tab_settings">সেটিংস</string>
+
+    <!-- Home -->
+    <string name="lock_on">লক চালু</string>
+    <string name="remaining">বাকি সময়</string>
+    <string name="unlock_when">লক খুলবে যখন</string>
+    <string name="rule_any">যেকোনো একটা</string>
+    <string name="protected_now">এখন যা সুরক্ষিত</string>
+    <string name="btn_emergency">জরুরি কল</string>
+    <string name="btn_urge">ইচ্ছা সামলাও</string>
+    <string name="warn_a11y_title">অ্যাক্সেসিবিলিটি বন্ধ।</string>
+    <string name="warn_a11y_body">অ্যাপ ও ফিচার ব্লক এখন কাজ করছে না।</string>
+    <string name="warn_a11y_action">চালু করুন →</string>
+
+    <!-- Protection sub tabs -->
+    <string name="sub_lock">লক সেটআপ</string>
+    <string name="sub_switches">সুরক্ষা সুইচ</string>
+    <string name="sub_apps">অ্যাপ ও ফিচার</string>
+    <string name="sub_web">সাইট ও কীওয়ার্ড</string>
+
+    <!-- Lock setup -->
+    <string name="new_lock">নতুন লক</string>
+    <string name="new_lock_sub">কী কী বন্ধ থাকবে আর কখন খুলবে — এখানে ঠিক করুন</string>
+    <string name="cond_label">লক খোলার শর্ত</string>
+    <string name="mode_time">সময়</string>
+    <string name="mode_location">লোকেশন</string>
+    <string name="mode_both">সময় + লোকেশন</string>
+    <string name="time_label">সময়</string>
+    <string name="place_label">লোকেশন</string>
+    <string name="rule_label">দুটো দিলে কোন নিয়মে খুলবে</string>
+    <string name="any_title">যেকোনো একটা</string>
+    <string name="any_sub">যেটা আগে হবে</string>
+    <string name="all_title">দুটোই</string>
+    <string name="all_sub">সময় শেষ এবং পৌঁছানো</string>
+    <string name="btn_start_lock">লক শুরু করুন</string>
+    <string name="lock_hint">শুরুর পর নিজে খোলা যাবে না। শুধু জরুরি ওভাররাইড থাকবে।</string>
+
+    <!-- Guard switches -->
+    <string name="guard_title">সুরক্ষা সুইচ</string>
+    <string name="guard_sub">প্রতিটা সুরক্ষা আলাদা করে চালু বা বন্ধ করুন। লক চলাকালে বন্ধ করা যায় না।</string>
+
+    <!-- Apps -->
+    <string name="apps_title">অ্যাপ ও ফিচার ব্লক</string>
+    <string name="apps_sub">পুরো অ্যাপ আটকান, অথবা অ্যাপ চালু রেখে শুধু একটা অংশ বন্ধ করুন</string>
+    <string name="apps_add">+ অ্যাপ বা ফিচার যোগ করুন</string>
+
+    <!-- Web -->
+    <string name="web_title">সাইট ও কীওয়ার্ড</string>
+    <string name="web_sub">ওয়েবসাইট আর ব্রাউজারের লেখা — দুই স্তরে আটকানো হয়</string>
+
+    <!-- Stats -->
+    <string name="stats_title">পরিসংখ্যান</string>
+    <string name="stats_sub">নমুনা তথ্য — UI প্রদর্শনের জন্য</string>
+    <string name="stat_total">মোট সুরক্ষিত সময়</string>
+    <string name="stat_streak">ধারাবাহিক দিন</string>
+    <string name="stat_blocks">ব্লক করা চেষ্টা</string>
+    <string name="stat_week">গত ৭ দিন</string>
+
+    <!-- Location -->
+    <string name="loc_title">লোকেশন</string>
+    <string name="loc_sub">সেভ করা জায়গা ও দূরত্বের লক</string>
+    <string name="loc_zones">সেভ করা জায়গা</string>
+    <string name="loc_add">+ নতুন জায়গা যোগ করুন</string>
+    <string name="loc_clear">লোকেশন ইতিহাস মুছুন</string>
+
+    <!-- Settings -->
+    <string name="set_title">সেটিংস</string>
+    <string name="set_theme">থিম</string>
+    <string name="set_sub">থিম, ভাষা ও বিজ্ঞপ্তি</string>
+    <string name="theme_system">সিস্টেম</string>
+    <string name="theme_light">সাদা</string>
+    <string name="theme_dark">ডার্ক</string>
+    <string name="set_general">সাধারণ</string>
+    <string name="set_notifications">বিজ্ঞপ্তি</string>
+    <string name="set_language">ভাষা</string>
+    <string name="set_language_value">বাংলা</string>
+    <string name="set_trusted">বিশ্বস্ত ব্যক্তি</string>
+    <string name="set_trusted_value">যোগ করা হয়নি</string>
+    <string name="set_about">অ্যাপ সম্পর্কে</string>
+    <string name="set_about_value">সংস্করণ 1.0.0</string>
+</resources>
